@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <!-- css open props -->
+    <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/> -->
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Validator</h1>
+        <h3 id="message"></h3>
+        <form action="#" id="form" novalidate>
+            <div class="form-group">
+                <lable for="name">Full name</lable>
+                <input id="name" type="text" name="name" placeholder="Full name" required minlength="3" maxlength="100">
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
