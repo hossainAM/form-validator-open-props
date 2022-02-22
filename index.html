@@ -15,18 +15,19 @@
     <div class="container">
         <h1>Form Validator</h1>
         <h3 id="message"></h3>
-        <form action="#" id="form" novalidate>
+        <form id="form" novalidate>
             <div class="form-group">
-                <lable for="name">Full name</lable>
-                <input 
-                    id="name" 
-                    type="text" 
-                    name="name" 
-                    placeholder="Full name" 
-                    required minlength="3" 
-                    maxlength="100"
+                <label for="name">Full name</label>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Full name"
+                  required
+                  minlength="3"
+                  maxlength="100"
                 />
-            </div>
+              </div>
             <div class="form-group">
                 <label for="email">Email Address</label>
                 <input
